@@ -8,9 +8,9 @@ nome = 'Otávio'
 print(nome[2]) # pega o índice 2
 print(nome[-4]) # índice 2
 
-print('Otá' in nome)
-print('zero' in nome)
+print('Otá' in nome) # True
+print('zero' in nome) # False
 print(10 * '-')
-print('Otá' in nome)
-print('zero' in nome)
+print('Otá' not in nome) # False
+print('zero' not in nome) # True
 

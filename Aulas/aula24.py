@@ -4,13 +4,20 @@
 #  O t á v i o
 # -6-5-4-3-2-1
 
-nome = 'Otávio'
-print(nome[2]) # pega o índice 2
-print(nome[-4]) # índice 2
+# nome = 'Otávio'
+# print(nome[2]) # pega o índice 2
+# print(nome[-4]) # índice 2
 
-print('Otá' in nome) # True
-print('zero' in nome) # False
-print(10 * '-')
-print('Otá' not in nome) # False
-print('zero' not in nome) # True
+# print('Otá' in nome) # True
+# print('zero' in nome) # False
+# print(10 * '-')
+# print('Otá' not in nome) # False
+# print('zero' not in nome) # True
 
+nome = input("Digite seu nome: ")
+encontrar = input("Digite o que deseja encontrar: ")
+
+if encontrar in nome:
+    print(f'{encontrar} está em {nome}')
+else:
+    print(f'{encontrar} não está em {nome}')
